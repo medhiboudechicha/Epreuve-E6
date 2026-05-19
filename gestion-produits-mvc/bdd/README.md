@@ -6,6 +6,15 @@ Ce dossier contient l'export SQL Server de la base utilisee par le site :
 gestion-produits-mvc/bdd/gestion_produits.sql
 ```
 
+Il contient aussi le MCD du projet :
+
+```text
+gestion-produits-mvc/bdd/mcd_gestion_produits.loo
+gestion-produits-mvc/bdd/MCD.md
+```
+
+Le fichier `.loo` s'ouvre avec Looping. Le fichier `MCD.md` explique les entites, associations et cardinalites, avec la note sur la table `panier_item`.
+
 Attention : ce script supprime puis recree la base `gestion_produits`.
 
 ## 1. Importer la base avec SSMS
