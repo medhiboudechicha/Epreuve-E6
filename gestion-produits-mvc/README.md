@@ -8,7 +8,7 @@ Projet PHP MVC simple connecte a SQL Server.
 - Extension PHP `pdo_sqlsrv`
 - SQL Server avec la base `gestion_produits`
 
-Le script de base de donnees et le tutoriel d'installation sont dans `../bdd/`.
+Le script de base de donnees et le tutoriel d'installation sont dans `bdd/`.
 
 ## Lancer le projet
 

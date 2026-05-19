@@ -4,12 +4,11 @@ Depot organise pour ranger plusieurs projets.
 
 ## Projets
 
-- `gestion-produits-mvc/` : application PHP MVC simple connectee a SQL Server.
-- `bdd/` : export SQL Server de la base `gestion_produits` et tutoriel d'installation.
+- `gestion-produits-mvc/` : application PHP MVC simple connectee a SQL Server, avec son dossier `bdd/`.
 
 ## Installation rapide
 
-1. Importer `bdd/gestion_produits.sql` dans SQL Server Management Studio.
+1. Importer `gestion-produits-mvc/bdd/gestion_produits.sql` dans SQL Server Management Studio.
 2. Verifier la connexion dans `gestion-produits-mvc/config.php`.
 3. Lancer le site avec Laragon ou WAMP :
 
@@ -17,7 +16,7 @@ Depot organise pour ranger plusieurs projets.
 http://localhost/Epreuve-E6/gestion-produits-mvc/index.php?page=login
 ```
 
-Le tutoriel complet est dans `bdd/README.md`.
+Le tutoriel complet est dans `gestion-produits-mvc/bdd/README.md`.
 
 ## Ajouter un autre projet
 

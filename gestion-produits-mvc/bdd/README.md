@@ -3,7 +3,7 @@
 Ce dossier contient l'export SQL Server de la base utilisee par le site :
 
 ```text
-bdd/gestion_produits.sql
+gestion-produits-mvc/bdd/gestion_produits.sql
 ```
 
 Attention : ce script supprime puis recree la base `gestion_produits`.
@@ -16,7 +16,7 @@ Attention : ce script supprime puis recree la base `gestion_produits`.
    - Exemple du poste de developpement : `MEDHI\SQLEXPRESS03`
 3. Cliquer sur `Nouvelle requete`.
 4. Aller dans `Requete` puis activer `Mode SQLCMD`.
-5. Ouvrir le fichier `bdd/gestion_produits.sql`.
+5. Ouvrir le fichier `gestion-produits-mvc/bdd/gestion_produits.sql`.
 6. Cliquer sur `Executer`.
 7. Verifier que la base `gestion_produits` apparait dans `Bases de donnees`.
 
@@ -27,7 +27,7 @@ Si la base n'apparait pas tout de suite, faire clic droit sur `Bases de donnees`
 Depuis un terminal ouvert a la racine du depot :
 
 ```powershell
-sqlcmd -S .\SQLEXPRESS -E -C -i bdd\gestion_produits.sql
+sqlcmd -S .\SQLEXPRESS -E -C -i gestion-produits-mvc\bdd\gestion_produits.sql
 ```
 
 Adapter `.\SQLEXPRESS` si le nom du serveur SQL Server est different.
