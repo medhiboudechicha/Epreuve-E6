@@ -1,0 +1,21 @@
+# Fichiers locaux / secrets
+.env
+*.local
+config.local.php
+
+# Dependances
+vendor/
+node_modules/
+
+# Logs et caches
+*.log
+cache/
+tmp/
+writable/cache/
+writable/logs/
+
+# Systeme / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
