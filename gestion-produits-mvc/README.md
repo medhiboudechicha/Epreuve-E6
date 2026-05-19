@@ -8,18 +8,20 @@ Projet PHP MVC simple connecte a SQL Server.
 - Extension PHP `pdo_sqlsrv`
 - SQL Server avec la base `gestion_produits`
 
+Le script de base de donnees et le tutoriel d'installation sont dans `../bdd/`.
+
 ## Lancer le projet
 
 Depuis Laragon :
 
 ```text
-http://localhost/gestion-produits-shop/gestion-produits-mvc/index.php?page=login
+http://localhost/Epreuve-E6/gestion-produits-mvc/index.php?page=login
 ```
 
 Ou avec le serveur PHP local :
 
 ```powershell
-php -S 127.0.0.1:8090 -t C:\laragon\www\gestion-produits-shop\gestion-produits-mvc
+php -S 127.0.0.1:8090 -t C:\laragon\www\Epreuve-E6\gestion-produits-mvc
 ```
 
 Puis ouvrir :
