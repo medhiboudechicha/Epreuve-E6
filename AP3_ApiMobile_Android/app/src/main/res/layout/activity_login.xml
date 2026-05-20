@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_gradient"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_badge"
+            android:paddingStart="14dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="8dp"
+            android:text="Connexion securisee"
+            android:textColor="@color/app_primary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTitre"
+            style="@style/TextAppearance.ApiMobile.HeroTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="AP3 Mobile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Retrouve tes produits, commandes et ton panier sur une interface inspiree du site."
+            android:textColor="@color/app_muted"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_glass_panel"
+            android:elevation="10dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Se connecter"
+                android:textColor="@color/app_text"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Utilise le meme compte que sur le site web."
+                android:textColor="@color/app_muted"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/Widget.ApiMobile.Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:autofillHints="emailAddress"
+                android:backgroundTint="@null"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                style="@style/Widget.ApiMobile.Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:autofillHints="password"
+                android:backgroundTint="@null"
+                android:hint="Mot de passe"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="@style/Widget.ApiMobile.Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:backgroundTint="@null"
+                android:text="Se connecter" />
+
+            <TextView
+                android:id="@+id/tvResultat"
+                style="@style/TextAppearance.ApiMobile.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:minHeight="24dp"
+                android:textColor="@color/app_muted" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

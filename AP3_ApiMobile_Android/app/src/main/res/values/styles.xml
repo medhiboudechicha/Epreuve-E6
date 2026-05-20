@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.ApiMobile" parent="" />
+
+    <style name="TextAppearance.ApiMobile.HeroTitle" parent="">
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.ApiMobile.ScreenTitle" parent="">
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.ApiMobile.SectionTitle" parent="">
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.ApiMobile.Body" parent="">
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.ApiMobile.Muted" parent="">
+        <item name="android:textColor">@color/app_muted</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.ApiMobile.Price" parent="">
+        <item name="android:textColor">@color/app_danger</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.ApiMobile" parent="" />
+
+    <style name="Widget.ApiMobile.Button" parent="" />
+
+    <style name="Widget.ApiMobile.Input" parent="">
+        <item name="android:background">@drawable/bg_input_surface</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textColorHint">@color/app_muted</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.ApiMobile.Button.Primary" parent="">
+        <item name="android:background">@drawable/bg_primary_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="Widget.ApiMobile.Button.Secondary" parent="">
+        <item name="android:background">@drawable/bg_secondary_button</item>
+        <item name="android:textColor">@color/app_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+    </style>
+
+    <style name="Widget.ApiMobile.Button.Danger" parent="">
+        <item name="android:background">@drawable/bg_danger_button</item>
+        <item name="android:textColor">@color/app_danger</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+    </style>
+
+    <style name="Widget.ApiMobile.Button.Counter" parent="">
+        <item name="android:background">@drawable/bg_counter_button</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minWidth">44dp</item>
+        <item name="android:minHeight">44dp</item>
+    </style>
+</resources>

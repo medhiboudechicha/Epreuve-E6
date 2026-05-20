@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_glass_panel"
+                android:elevation="8dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvTitreFormulaire"
+                    style="@style/TextAppearance.ApiMobile.ScreenTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nouveau produit" />
+
+                <EditText
+                    android:id="@+id/etNomProduit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:hint="Nom du produit *"
+                    android:inputType="text"
+                    android:textColor="@color/app_text"
+                    android:textColorHint="@color/app_muted" />
+
+                <EditText
+                    android:id="@+id/etDescriptionProduit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:hint="Description"
+                    android:inputType="textMultiLine"
+                    android:minLines="3"
+                    android:textColor="@color/app_text"
+                    android:textColorHint="@color/app_muted" />
+
+                <EditText
+                    android:id="@+id/etPrixProduit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:hint="Prix (ex: 29.99) *"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/app_text"
+                    android:textColorHint="@color/app_muted" />
+
+                <EditText
+                    android:id="@+id/etStockProduit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:hint="Stock (ex: 50) *"
+                    android:inputType="number"
+                    android:textColor="@color/app_text"
+                    android:textColorHint="@color/app_muted" />
+
+                <EditText
+                    android:id="@+id/etImageProduit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:hint="Nom du fichier image (ex: photo.jpg)"
+                    android:inputType="text"
+                    android:textColor="@color/app_text"
+                    android:textColorHint="@color/app_muted" />
+
+                <ProgressBar
+                    android:id="@+id/progressFormProduit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="14dp"
+                    android:indeterminateTint="@color/app_primary"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnSauvegarderProduit"
+                    style="@style/Widget.ApiMobile.Button.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Sauvegarder" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

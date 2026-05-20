@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_gradient"
+    tools:context=".DetailCommandeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_glass_panel"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvDetailCommandeTitre"
+                style="@style/TextAppearance.ApiMobile.ScreenTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Commande" />
+
+            <TextView
+                android:id="@+id/tvDetailCommandeDate"
+                style="@style/TextAppearance.ApiMobile.Muted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Date :" />
+
+            <TextView
+                android:id="@+id/tvDetailCommandeQuantite"
+                style="@style/TextAppearance.ApiMobile.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Articles :" />
+
+            <TextView
+                android:id="@+id/tvDetailCommandeTotal"
+                style="@style/TextAppearance.ApiMobile.Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_price_badge"
+                android:paddingStart="14dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="14dp"
+                android:paddingBottom="8dp"
+                android:text="Total :" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressDetailCommande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:indeterminateTint="@color/app_primary"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvLignesCommandeTitre"
+            style="@style/TextAppearance.ApiMobile.SectionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Lignes de commande" />
+
+        <TextView
+            android:id="@+id/tvDetailCommandeEmpty"
+            style="@style/TextAppearance.ApiMobile.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_glass_soft"
+            android:padding="18dp"
+            android:text="Aucune ligne de commande."
+            android:textColor="@color/app_muted"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvDetailCommandeLignes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingBottom="12dp"
+            tools:listitem="@layout/item_ligne_commande" />
+
+    </LinearLayout>
+</FrameLayout>

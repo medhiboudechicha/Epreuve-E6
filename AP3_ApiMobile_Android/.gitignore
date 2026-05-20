@@ -1,0 +1,21 @@
+# Android Studio / Gradle
+.gradle/
+.idea/
+build/
+*/build/
+*.iml
+
+# Local machine configuration
+local.properties
+
+# Android generated outputs
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Local diagnostic files generated during tests
+/.claude/
+/*.xml
+/*.png
