@@ -1,0 +1,18 @@
+# Documents E6
+
+Ce dossier contient le document PDF final prepare pour l'epreuve E6.
+
+Fichier principal :
+
+```text
+Boudechica_medhi_E6.pdf
+```
+
+Le PDF regroupe les documents Boudechicha Medhi E6 dans un seul fichier, avec une disposition organisee comme le document de reference fourni :
+
+- page de convocation ;
+- fiches descriptives de realisations professionnelles ;
+- captures d'ecran des productions ;
+- annexe VII-7 en fin de document.
+
+Les fichiers sources separes restent dans les dossiers de projet correspondants quand ils sont utiles, par exemple les README, le MCD Looping et les documents AP3.

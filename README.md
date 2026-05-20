@@ -16,6 +16,7 @@ L'application mobile ne se connecte pas directement a la base de donnees. Elle p
 - `gestion-produits-mvc/` : application PHP MVC simple connectee a SQL Server, avec son dossier `bdd/`.
 - `AP3_Gestion_Produit_API/` : API REST CodeIgniter 4 connectee a MySQL pour l'application mobile de gestion de produits, panier, commandes et administration.
 - `AP3_ApiMobile_Android/` : application mobile Android native Java connectee a l'API AP3.
+- `docE6/` : document PDF final fusionne pour l'epreuve E6.
 
 ## Installation rapide
 
