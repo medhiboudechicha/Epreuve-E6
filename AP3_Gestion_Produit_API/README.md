@@ -19,7 +19,7 @@ Pour tester le projet AP3 complet, il faut lancer ce backend avant de lancer l'a
 
 - `app/` : code CodeIgniter 4, controleurs web, controleurs API, modeles, filtres JWT et migrations.
 - `public/` : point d'entree web et images du catalogue dans `public/uploads/`.
-- `bdd/` : export phpMyAdmin de la base et guide d'import pour Laragon/WAMP.
+- `bdd/` : export phpMyAdmin de la base, MCD Looping et guide d'import pour Laragon/WAMP.
 - `database/gestion_produits.sql` : export MySQL complet de la base locale avec donnees, routines et triggers.
 - `docs/` : scripts SQL complementaires, sources des images, et document E6 rempli dans `docs/e6/`.
 - `tests/` : tests PHPUnit du projet API.

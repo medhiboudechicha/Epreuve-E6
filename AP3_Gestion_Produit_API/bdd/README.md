@@ -2,13 +2,35 @@
 
 Ce dossier contient la base de donnees MySQL du projet AP3 Gestion Produit API.
 
-Fichier principal :
+Fichiers principaux :
 
 ```text
 bdd/gestion_produits.sql
+bdd/mcd_ap3_gestion_produits_api.loo
+bdd/MCD.md
 ```
 
 Le fichier vient d'un export phpMyAdmin. Il contient les tables, les donnees de test, les procedures stockees et les triggers necessaires au projet.
+
+Le fichier `.loo` contient le MCD du projet et s'ouvre avec Looping. Le fichier `MCD.md` resume le modele de donnees, les entites, les associations et les cardinalites principales.
+
+Attention : le fichier `.loo` ne s'importe pas dans phpMyAdmin. Il sert a consulter ou modifier le modele conceptuel de donnees. Pour creer la base MySQL, utiliser uniquement `gestion_produits.sql`.
+
+## MCD Looping
+
+Pour ouvrir le MCD :
+
+1. Installer Looping.
+2. Ouvrir Looping.
+3. Cliquer sur `Fichier > Ouvrir`.
+4. Selectionner :
+
+```text
+AP3_Gestion_Produit_API/bdd/mcd_ap3_gestion_produits_api.loo
+```
+
+5. Verifier les entites principales : `Utilisateur`, `Produit`, `Commande`, `Panier_item`, `Genre`, `Auteur`, `Marque`, `Fournisseur`.
+6. Consulter `MCD.md` pour lire les explications sans ouvrir Looping.
 
 ## Contenu de la base
 

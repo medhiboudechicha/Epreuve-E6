@@ -34,7 +34,7 @@ Le tutoriel complet est dans `gestion-produits-mvc/bdd/README.md`.
 Le projet API est range dans `AP3_Gestion_Produit_API/`.
 
 - Le script SQL complet est dans `AP3_Gestion_Produit_API/database/gestion_produits.sql`.
-- L'export phpMyAdmin et le tutoriel Laragon/WAMP sont dans `AP3_Gestion_Produit_API/bdd/`.
+- L'export phpMyAdmin, le MCD Looping et le tutoriel Laragon/WAMP sont dans `AP3_Gestion_Produit_API/bdd/`.
 - Le document E6 rempli est dans `AP3_Gestion_Produit_API/docs/e6/`.
 - Les instructions d'installation sont dans `AP3_Gestion_Produit_API/README.md`.
 
