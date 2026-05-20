@@ -4,6 +4,17 @@ Projet CodeIgniter 4 utilise pour l'epreuve E6 BTS SIO SLAM.
 
 Cette realisation correspond a une API REST PHP/MySQL consommee par une application mobile Android. Elle permet de gerer un catalogue de produits, un panier, des commandes et une partie administrateur.
 
+## Relation avec l'application mobile
+
+Ce dossier API va avec le dossier `AP3_ApiMobile_Android/` place a la racine du depot.
+
+- L'API fournit les endpoints `/api/login`, `/api/produits`, `/api/panier`, `/api/commandes` et `/api/admin/...`.
+- L'application Android appelle ces endpoints avec Retrofit.
+- La base MySQL `gestion_produits` est utilisee uniquement par cette API.
+- Le mobile ne doit pas contenir d'identifiants MySQL et ne se connecte pas directement a phpMyAdmin.
+
+Pour tester le projet AP3 complet, il faut lancer ce backend avant de lancer l'application Android. Le README du dossier Android explique comment renseigner `api.baseUrl` pour pointer vers cette API.
+
 ## Contenu du dossier
 
 - `app/` : code CodeIgniter 4, controleurs web, controleurs API, modeles, filtres JWT et migrations.

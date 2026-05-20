@@ -2,6 +2,15 @@
 
 Depot organise pour ranger plusieurs projets.
 
+## Important : les dossiers AP3 vont ensemble
+
+Le projet AP3 est separe en deux dossiers pour garder une organisation propre, mais les deux dossiers fonctionnent ensemble :
+
+- `AP3_Gestion_Produit_API/` : backend CodeIgniter 4, base MySQL, routes API, images produits et logique metier.
+- `AP3_ApiMobile_Android/` : application mobile Android qui appelle l'API avec Retrofit.
+
+L'application mobile ne se connecte pas directement a la base de donnees. Elle passe toujours par l'API REST. Pour tester le projet AP3 complet, il faut donc lancer la base MySQL, lancer l'API, puis demarrer l'application Android.
+
 ## Projets
 
 - `gestion-produits-mvc/` : application PHP MVC simple connectee a SQL Server, avec son dossier `bdd/`.
@@ -34,8 +43,18 @@ Le projet API est range dans `AP3_Gestion_Produit_API/`.
 Le projet mobile est range dans `AP3_ApiMobile_Android/`.
 
 - Les sources Android sont dans `AP3_ApiMobile_Android/app/src/`.
-- Le tutoriel d'installation, d'import Android Studio et de configuration de l'API est dans `AP3_ApiMobile_Android/README.md`.
+- Le tutoriel d'installation, d'import Android Studio et de liaison avec l'API est dans `AP3_ApiMobile_Android/README.md`.
 - Les fichiers locaux Android Studio, les builds Gradle et `local.properties` sont exclus du depot.
+
+## Ordre de demarrage du projet AP3 complet
+
+1. Importer la base MySQL avec `AP3_Gestion_Produit_API/bdd/gestion_produits.sql`.
+2. Configurer le fichier `.env` du backend API.
+3. Lancer Apache avec Laragon/WAMP, ou lancer `php spark serve`.
+4. Tester l'API depuis le navigateur du PC avec `/api/test`.
+5. Ouvrir `AP3_ApiMobile_Android/` dans Android Studio.
+6. Configurer `api.baseUrl` dans le `local.properties` Android si l'URL locale est differente.
+7. Lancer l'application Android sur emulateur ou telephone.
 
 ## Ajouter un autre projet
 
