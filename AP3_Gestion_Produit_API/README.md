@@ -8,6 +8,7 @@ Cette realisation correspond a une API REST PHP/MySQL consommee par une applicat
 
 - `app/` : code CodeIgniter 4, controleurs web, controleurs API, modeles, filtres JWT et migrations.
 - `public/` : point d'entree web et images du catalogue dans `public/uploads/`.
+- `bdd/` : export phpMyAdmin de la base et guide d'import pour Laragon/WAMP.
 - `database/gestion_produits.sql` : export MySQL complet de la base locale avec donnees, routines et triggers.
 - `docs/` : scripts SQL complementaires, sources des images, et document E6 rempli dans `docs/e6/`.
 - `tests/` : tests PHPUnit du projet API.
@@ -24,8 +25,10 @@ composer install
 2. Importer la base :
 
 ```text
-database/gestion_produits.sql
+bdd/gestion_produits.sql
 ```
+
+Le tutoriel complet d'import phpMyAdmin est dans `bdd/README.md`.
 
 3. Creer un fichier `.env` a partir de `.env.example`, puis adapter les valeurs locales :
 
