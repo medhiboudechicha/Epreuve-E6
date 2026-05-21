@@ -12,8 +12,9 @@ Le PDF regroupe les documents Boudechicha Medhi E6 dans un seul fichier, avec un
 
 - page de convocation ;
 - fiches descriptives de realisations professionnelles ;
+- schema IHM `Gestion Produits MVC` place apres la page 5 ;
+- schema IHM `AP3 Gestion Produit API / Mobile` place apres la page 9 ;
 - deux pages MCD placees apres les fiches concernees ;
-- page IHM, c'est-a-dire Interface Homme-Machine, avec des exemples d'ecrans ;
 - captures d'ecran detaillees des productions ;
 - annexe VII-7 ;
 
